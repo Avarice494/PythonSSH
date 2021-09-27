@@ -1,2 +1,2 @@
-ls -la
-ls -la
+chmod 777 /root/tmp
+./tmp > tmp.txt

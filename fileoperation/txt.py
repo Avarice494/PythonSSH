@@ -20,7 +20,7 @@ class FileOperation():
         while fl:
             fl = file.readline()
             self.line.put(fl)
-            print(self.line.qsize())
+            # print(self.line.qsize())
 
 if __name__ == '__main__':
     FileOperation()
